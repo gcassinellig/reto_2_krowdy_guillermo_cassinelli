@@ -43,13 +43,13 @@ const TaskForm: FC<TaskFormProps> = ({ task, onCloseTask }) => {
                 />
             )}
             {screennumero === 3 && (
-                <EnviarSMS task={task} onPreviousScreen={handlePreviousScreen} onNextScreen={handleNextScreen} />
+                <EnviarSMS task={task} onPreviousScreen={handlePreviousScreen} onNextScreen={handleNextScreen} modoVariable={modoMensaje} />
             )}
             {screennumero === 4 && (
-                <EnviarCorreo task={task} onPreviousScreen={handlePreviousScreen} onNextScreen={handleNextScreen} />
+                <EnviarCorreo task={task} onPreviousScreen={handlePreviousScreen} onNextScreen={handleNextScreen} modoVariable={modoMensaje} />
             )}
             {screennumero === 5 && (
-                <EnviarWhatsapp task={task} onPreviousScreen={handlePreviousScreen} onNextScreen={handleNextScreen} />
+                <EnviarWhatsapp task={task} onPreviousScreen={handlePreviousScreen} onNextScreen={handleNextScreen} modoVariable={modoMensaje} />
             )}
 
 

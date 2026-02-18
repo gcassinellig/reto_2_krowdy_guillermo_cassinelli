@@ -64,3 +64,18 @@ export const tasksDefault: Task[] = [
         status: TaskStatus.PENDING,
     }
 ]
+
+export const listaMensajesSMS = [
+    {
+        status: 'invitar',
+        mensaje: 'AAAA'
+    },
+    {
+        status: 'recordar',
+        mensaje: 'BBBB'
+    },
+    {
+        status: 'personalizar',
+        mensaje: 'CCCC'
+    }
+]
